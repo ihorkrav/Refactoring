@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "dgSpecHash": "I5DXVsPeqEk=",
+  "success": false,
+  "projectFilePath": "D:\\Studying\\Univercity\\Refactoring\\Lab1\\ConsoleApp1\\ConsoleApp1.ProgramTests\\ConsoleApp1.ProgramTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\krave\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\microsoft.net.test.sdk\\17.12.0\\microsoft.net.test.sdk.17.12.0.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\1.6.2\\microsoft.testing.extensions.telemetry.1.6.2.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\1.6.2\\microsoft.testing.extensions.trxreport.abstractions.1.6.2.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\microsoft.testing.extensions.vstestbridge\\1.6.2\\microsoft.testing.extensions.vstestbridge.1.6.2.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\microsoft.testing.platform\\1.6.2\\microsoft.testing.platform.1.6.2.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\microsoft.testing.platform.msbuild\\1.6.2\\microsoft.testing.platform.msbuild.1.6.2.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.13.0\\microsoft.testplatform.objectmodel.17.13.0.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\microsoft.testplatform.testhost\\17.12.0\\microsoft.testplatform.testhost.17.12.0.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\mstest\\3.6.4\\mstest.3.6.4.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\mstest.testadapter\\3.8.2\\mstest.testadapter.3.8.2.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: MSTest 3.6.4 requires MSTest.TestAdapter (= 3.6.4) but version MSTest.TestAdapter 3.8.2 was resolved.",
+      "libraryId": "MSTest.TestAdapter",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1107",
+      "level": "Error",
+      "message": "Version conflict detected for MSTest.TestFramework. Install/reference MSTest.TestFramework 3.8.2 directly to project ConsoleApp1.ProgramTests to resolve this issue. \r\n ConsoleApp1.ProgramTests -> ConsoleApp1 -> MSTest.TestFramework (>= 3.8.2) \r\n ConsoleApp1.ProgramTests -> MSTest 3.6.4 -> MSTest.TestFramework (= 3.6.4).",
+      "libraryId": "MSTest.TestFramework",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}
