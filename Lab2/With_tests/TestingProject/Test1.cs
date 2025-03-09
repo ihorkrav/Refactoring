@@ -1,0 +1,14 @@
+﻿namespace TestingProject;
+using Classes;
+using DatabaseFunctions;
+[TestClass]
+public sealed class Test1
+{
+    [TestMethod]
+    public void TestMethod1()
+    {
+    }
+   
+   
+
+}

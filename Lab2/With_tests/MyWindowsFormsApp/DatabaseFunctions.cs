@@ -5,9 +5,16 @@ using System.IO;
 using Classes;
 
 namespace DatabaseFunctions{
- public class Database{
+    public interface IDatabase
+{
+    List<FullTimeEmployee> ReadExcelData(string filePath);
+    void SaveDatabase(string databasePath, List<FullTimeEmployee> employees);
+    void SaveHiredDatabase(string databasePath, List<HiredEmployee> employees);
+    void SavePartTimeDatabase(string databasePath, List<PartTimeEmployee> employees);
+}
+ public class Database: IDatabase{
 
-    public static List<FullTimeEmployee> ReadExcelData(string filePath)
+    public List<FullTimeEmployee> ReadExcelData(string filePath)
     {
          ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
@@ -59,19 +66,9 @@ namespace DatabaseFunctions{
         return employees;
     }
 
-    public static void AddFulltimeEmployee(List<FullTimeEmployee> people, FullTimeEmployee person){
-        people.Add(person);
-    }
+  
 
-    public static void AddPartTimeEmployee(List<PartTimeEmployee> people, PartTimeEmployee person){
-        people.Add(person);
-    }
-
-    public static void AddHiredEmployee(List<HiredEmployee> people, HiredEmployee person){
-        people.Add(person);
-    }
-
-    public static void SaveDatabase(string folderPath, List<FullTimeEmployee> people)
+    public void SaveDatabase(string folderPath, List<FullTimeEmployee> people)
     {
         // Ensure the directory exists
         if (!Directory.Exists(folderPath))
@@ -123,7 +120,7 @@ namespace DatabaseFunctions{
         }
     }
 
-    public static void SaveHiredDatabase(string folderPath, List<HiredEmployee> people)
+    public void SaveHiredDatabase(string folderPath, List<HiredEmployee> people)
     {
         // Ensure the directory exists
         if (!Directory.Exists(folderPath))
@@ -177,7 +174,7 @@ namespace DatabaseFunctions{
         }
     }
 
-    public static void SavePartTimeDatabase(string folderPath, List<PartTimeEmployee> people)
+    public void SavePartTimeDatabase(string folderPath, List<PartTimeEmployee> people)
     {
         // Ensure the directory exists
         if (!Directory.Exists(folderPath))
