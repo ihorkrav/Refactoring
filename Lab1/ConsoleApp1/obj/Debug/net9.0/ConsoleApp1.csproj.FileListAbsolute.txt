@@ -110,3 +110,4 @@ D:\Studying\Univercity\Refactoring\Lab1\ConsoleApp1\obj\Debug\net9.0\refint\Cons
 D:\Studying\Univercity\Refactoring\Lab1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.pdb
 D:\Studying\Univercity\Refactoring\Lab1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.genruntimeconfig.cache
 D:\Studying\Univercity\Refactoring\Lab1\ConsoleApp1\obj\Debug\net9.0\ref\ConsoleApp1.dll
+D:\Studying\Univercity\Refactoring\Lab1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.sourcelink.json

@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Studying\\Univercity\\Refactoring\\Lab2\\With_tests\\MyWindowsFormsApp\\MyWindowsFormsApp.csproj": {}
+  },
+  "projects": {
+    "D:\\Studying\\Univercity\\Refactoring\\Lab2\\With_tests\\MyWindowsFormsApp\\MyWindowsFormsApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Studying\\Univercity\\Refactoring\\Lab2\\With_tests\\MyWindowsFormsApp\\MyWindowsFormsApp.csproj",
+        "projectName": "MyWindowsFormsApp",
+        "projectPath": "D:\\Studying\\Univercity\\Refactoring\\Lab2\\With_tests\\MyWindowsFormsApp\\MyWindowsFormsApp.csproj",
+        "packagesPath": "C:\\Users\\krave\\.nuget\\packages\\",
+        "outputPath": "D:\\Studying\\Univercity\\Refactoring\\Lab2\\With_tests\\MyWindowsFormsApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\krave\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0-windows7.0": {
+            "targetAlias": "net9.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            },
+            "LiveCharts.WinForms": {
+              "target": "Package",
+              "version": "[0.9.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
