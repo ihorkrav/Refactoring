@@ -192,3 +192,8 @@ D:\Studying\Univercity\Refactoring\Lab2\With_tests\TestingProject\obj\Debug\net9
 D:\Studying\Univercity\Refactoring\Lab2\With_tests\TestingProject\obj\Debug\net9.0-windows\ref\TestingProject.dll
 D:\Studying\Univercity\Refactoring\Lab2\With_tests\TestingProject\bin\Debug\net9.0-windows\Castle.Core.dll
 D:\Studying\Univercity\Refactoring\Lab2\With_tests\TestingProject\bin\Debug\net9.0-windows\Moq.dll
+D:\Studying\Univercity\Refactoring\Lab2\With_tests\TestingProject\bin\Debug\net9.0-windows\FluentAssertions.dll
+D:\Studying\Univercity\Refactoring\Lab2\With_tests\TestingProject\bin\Debug\net9.0-windows\xunit.abstractions.dll
+D:\Studying\Univercity\Refactoring\Lab2\With_tests\TestingProject\bin\Debug\net9.0-windows\xunit.assert.dll
+D:\Studying\Univercity\Refactoring\Lab2\With_tests\TestingProject\bin\Debug\net9.0-windows\xunit.core.dll
+D:\Studying\Univercity\Refactoring\Lab2\With_tests\TestingProject\bin\Debug\net9.0-windows\xunit.execution.dotnet.dll

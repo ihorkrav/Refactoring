@@ -1,12 +1,22 @@
+using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
+
 namespace Classes{
 
 
     public abstract class Employee{
+        [Required]
         public int ID { get; set; }
+        [Required]
+
         public string FirstName { get; set; }
+        [Required]
         public string LastName { get; set; }
+        [Required]
         public string Department { get; set; }
+        [NotNull]
         public int MonthlySalary { get; set; }
+        [NotNull]
         public int AnnualSalary { get; set; }
 
         protected Employee(int id, string firstName, string lastName, string department, int monthlySalary)
@@ -22,6 +32,7 @@ namespace Classes{
 
     public class PartTimeEmployee :Employee
     {
+        [Required, NotNull]
          public int HoursWorked { get; set; }
 
         public PartTimeEmployee(int id, string firstName, string lastName, string department, int monthlySalary, int hoursWorked)
@@ -32,6 +43,8 @@ namespace Classes{
     }
 
     public class HiredEmployee: Employee{
+        [Required, NotNull]
+
         public int CompletedProjects { get; set; }
 
         public HiredEmployee(int id, string firstName, string lastName, string department, int monthlySalary, int completedProjects)

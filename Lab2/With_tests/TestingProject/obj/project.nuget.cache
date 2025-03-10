@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Z0Ziu+QsFVc=",
+  "dgSpecHash": "Bl+rsQs0QpM=",
   "success": true,
   "projectFilePath": "D:\\Studying\\Univercity\\Refactoring\\Lab2\\With_tests\\TestingProject\\TestingProject.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\krave\\.nuget\\packages\\epplus\\7.6.0\\epplus.7.6.0.nupkg.sha512",
     "C:\\Users\\krave\\.nuget\\packages\\epplus.interfaces\\7.5.0\\epplus.interfaces.7.5.0.nupkg.sha512",
     "C:\\Users\\krave\\.nuget\\packages\\epplus.system.drawing\\7.5.0\\epplus.system.drawing.7.5.0.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\fluentassertions\\8.1.1\\fluentassertions.8.1.1.nupkg.sha512",
     "C:\\Users\\krave\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
     "C:\\Users\\krave\\.nuget\\packages\\livecharts.winforms\\0.9.7.1\\livecharts.winforms.0.9.7.1.nupkg.sha512",
     "C:\\Users\\krave\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
@@ -43,7 +44,14 @@
     "C:\\Users\\krave\\.nuget\\packages\\system.drawing.common\\8.0.4\\system.drawing.common.8.0.4.nupkg.sha512",
     "C:\\Users\\krave\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
     "C:\\Users\\krave\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.1\\system.security.cryptography.pkcs.9.0.1.nupkg.sha512",
-    "C:\\Users\\krave\\.nuget\\packages\\system.text.encoding.codepages\\9.0.1\\system.text.encoding.codepages.9.0.1.nupkg.sha512"
+    "C:\\Users\\krave\\.nuget\\packages\\system.text.encoding.codepages\\9.0.1\\system.text.encoding.codepages.9.0.1.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\xunit\\2.9.3\\xunit.2.9.3.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\xunit.analyzers\\1.18.0\\xunit.analyzers.1.18.0.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\xunit.assert\\2.9.3\\xunit.assert.2.9.3.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\xunit.core\\2.9.3\\xunit.core.2.9.3.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\xunit.extensibility.core\\2.9.3\\xunit.extensibility.core.2.9.3.nupkg.sha512",
+    "C:\\Users\\krave\\.nuget\\packages\\xunit.extensibility.execution\\2.9.3\\xunit.extensibility.execution.2.9.3.nupkg.sha512"
   ],
   "logs": [
     {

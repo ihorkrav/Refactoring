@@ -8,7 +8,7 @@ using DatabaseFunctions;
 using LiveCharts.Wpf;
 
 
-namespace MyWindowsFormsApp
+namespace FromFunctions
 {
     public  class FormFunctions
     {
